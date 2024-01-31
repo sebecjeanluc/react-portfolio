@@ -24,7 +24,7 @@
 
 ### About this react-portfolio project
 
-This is definitely one of my best masterpieces' project
+The project focuses on a technically sophisticated implementation of a portfolio website using React. It leverages React's component-based architecture for modular and reusable UI elements, and employs dynamic content rendering, especially in the Project Gallery where data is sourced from a JSON file. Client-side routing is managed via React Router, enabling seamless navigation without page reloads, enhancing user experience and performance. Technical emphasis is also on state management within React to handle real-time updates and user interactions effectively. The project structure demands meticulous attention to detail in integrating various components like Header, Home, and Contact, ensuring they work cohesively within the React ecosystem. This approach not only showcases technical proficiency but also ensures a scalable, maintainable, and user-friendly portfolio website.
 
 ### Built With
 
@@ -38,7 +38,7 @@ This is definitely one of my best masterpieces' project
 ### How to install
 
 ```shell
-The project focuses on a technically sophisticated implementation of a portfolio website using React. It leverages React's component-based architecture for modular and reusable UI elements, and employs dynamic content rendering, especially in the Project Gallery where data is sourced from a JSON file. Client-side routing is managed via React Router, enabling seamless navigation without page reloads, enhancing user experience and performance. Technical emphasis is also on state management within React to handle real-time updates and user interactions effectively. The project structure demands meticulous attention to detail in integrating various components like Header, Home, and Contact, ensuring they work cohesively within the React ecosystem. This approach not only showcases technical proficiency but also ensures a scalable, maintainable, and user-friendly portfolio website.
+
 ```
 
 ### Usage
@@ -51,16 +51,22 @@ N/A
 
 - The key technical aspect of this project lies in effectively managing and rendering dynamic content using React and React Router.
 
+- SMARTPHONE Oriented
+
 ### Website preview
 
-![please add your demo](../assets/images/x)
+![demo_SP](./assets/images/guide/demo01.png)
+![demo_SP](./assets/images/guide/demo02.png)
 
 [react-portfolio on Github](https://undefined.github.io/react-portfolio/)
 
 ### Third-party services
 
 - [inquirer - npm](https://www.npmjs.com/package/inquirer)
-- React React Router -React and React-DOM - Styled-Components - Vite
+- React React Router
+- React and React-DOM
+- Styled-Components
+- Vite
 
 ### Credits
 

@@ -55,8 +55,8 @@ N/A
 
 ### Website preview
 
-![demo_SP](./assets/images/guide/demo01.png)
-![demo_SP](./assets/images/guide/demo02.png)
+![demo_SP](./assets/guide/demo01.png)
+![demo_SP](./assets/guide/demo02.png)
 
 [react-portfolio on Github](https://undefined.github.io/react-portfolio/)
 

@@ -1,22 +1,22 @@
 <!-- TABLE OF CONTENTS -->
-  <details>
-    <summary>Table of Contents</summary>
-    <ol>
-      <li>
-        <a href="#about-this-project">react-portfolio</a>
-        <ul>
-          <li><a href="#built-with">Built With</a></li>
-        </ul>
-      </li>
-      <li><a href="#how-to-install">How to install</a></li>
-      <li><a href="#usage">Usage</a></li>
-      <li><a href="#important-note">Important Note</a></li>
-      <li><a href="#website-preview">Website Preview</a></li>
-      <li><a href="#credits">Credits</a></li>
-      <li><a href="#license">License</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ol>
-  </details>
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-this-project">react-portfolio</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-install">How to install</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#important-note">Important Note</a></li>
+    <li><a href="#website-preview">Website Preview</a></li>
+    <li><a href="#credits">Credits</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
 ## react-portfolio
 
@@ -30,6 +30,7 @@ The project focuses on a technically sophisticated implementation of a portfolio
 
 - ![HTML]
 - ![CSS]
+- ![BOOTSTRAP]
 - ![JAVASCRIPT]
 - ![NODEJS]
 - ![WEBAPI]
@@ -38,7 +39,9 @@ The project focuses on a technically sophisticated implementation of a portfolio
 ### How to install
 
 ```shell
-
+$ cd portfolio
+$ npm init -y
+$ npm install
 ```
 
 ### Usage
@@ -50,15 +53,14 @@ N/A
 ### Important note
 
 - The key technical aspect of this project lies in effectively managing and rendering dynamic content using React and React Router.
-
 - SMARTPHONE Oriented
 
 ### Website preview
 
-![demo_SP](./assets/images/guide/demo01.png)
-![demo_SP](./assets/images/guide/demo02.png)
+![demo_SP](./assets/guide/demo01.png)
+![demo_SP](./assets/guide/demo02.png)
 
-[react-portfolio on Github](https://undefined.github.io/react-portfolio/)
+[react-portfolio on Github](https://sebecjeanluc.github.io/react-portfolio/)
 
 ### Third-party services
 
@@ -92,7 +94,7 @@ Tak Kawamura - tkawamura11@gmail.com
 
 [Tak Kawamura on Linkedin](https://linkedin.com/in/tkawamura11@gmail.com)
 
-[undefined on Github](https://github.com/undefined/)
+[sebecjeanluc on Github](https://github.com/sebecjeanluc/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

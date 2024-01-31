@@ -39,7 +39,7 @@ The project focuses on a technically sophisticated implementation of a portfolio
 ### How to install
 
 ```shell
-$ cd portfolio
+$ cd reactPortfolio
 $ npm init -y
 $ npm install
 ```
@@ -57,8 +57,8 @@ N/A
 
 ### Website preview
 
-![demo_SP](./assets/guide/demo01.png)
-![demo_SP](./assets/guide/demo02.png)
+![demo_SP](./guide/demo01.png)
+![demo_SP](./guide/demo02.png)
 
 [react-portfolio on Github](https://sebecjeanluc.github.io/react-portfolio/)
 

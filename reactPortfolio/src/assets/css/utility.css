@@ -93,7 +93,7 @@ p {
 	.section__wrapper,
 	.subSection__wrapper,
 	.section-picTop__wrapper {
-		max-width: 1200px;
+		max-width: 720px;
 		margin: 0 auto;
 	}
 }
@@ -142,7 +142,7 @@ p {
 	display: inline-block;
 	width: 24px;
 	height: 24px;
-	background-image: url('./src/assets/images/icon/arrow-right-square-fill.svg');
+	background-image: url('/reactPortfolio/src/assets/images/icon/arrow-right-square-fill.svg');
 	background-size: cover;
 	margin-right: 15px;
 	top: 12px;

@@ -15,13 +15,15 @@
 	padding: 20px 0;
 }
 
-/* Navigation */
-/* .nav__wrapper{
+/* Navigation SP*/
 
-} */
+.nav__wrapper {
+	justify-content: right;
+}
 .nav-content {
 	padding: 10px 5px;
 	border-bottom: 1px solid var(--black);
+	font-size: 18px;
 }
 .nav-content:first-child {
 	border-top: 1px solid var(--black);
@@ -35,12 +37,19 @@
 	font-weight: 300;
 }
 
+.nav-right {
+}
+
+/* Navigation PC */
 @media only screen and (min-width: 600px) {
 	.nav-content {
 		border-top: 1px solid var(--black);
 	}
 	.nav-content:last-child {
 		border-bottom: 1px solid var(--black);
+	}
+	.nav-content a {
+		font-size: 18px;
 	}
 }
 
@@ -57,21 +66,21 @@
 	object-fit: contain;
 }
 
-.home-title__wrapper {
+.home_title--wrapper {
 	margin: 20px 0;
 }
 
-.home-title__wrapper h3 {
+.home_title--wrapper h3 {
 	padding: 5px 0;
 	border-bottom: 2px solid var(--black);
 }
 
-.home-title__wrapper h4 {
+.home_title--wrapper h4 {
 	font-size: 34px;
 	margin-top: 20px;
 }
 
-.home-title__wrapper p {
+.home_title--wrapper p {
 	margin: 20px 0;
 }
 
@@ -107,7 +116,7 @@
 	display: inline-block;
 	width: 24px;
 	height: 24px;
-	background-image: url('./src/assets/images/icon/arrow-down.svg');
+	background-image: url('/reactPortfolio/src/assets/images/icon/arrow-down.svg');
 	background-size: cover;
 	margin-right: 15px;
 	top: 25px;

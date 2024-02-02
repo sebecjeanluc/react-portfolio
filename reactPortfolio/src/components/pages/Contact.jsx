@@ -10,10 +10,10 @@ function Contact(){
   function handleChange(event){
     setFormData({ ...formData, [event.target.name]: event.target.value });
   }
-  
   function handleSubmit(event){
     event.preventDefault();
     console.log(formData);
+    alert(`Thank you ${formData.name} but unfortunately the form is not working. Please contact via my email: tkawamura11@gmail.com or social media`)
   }
   return (
     <section className='general__wrapper'>

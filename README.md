@@ -39,7 +39,6 @@ The project focuses on a technically sophisticated implementation of a portfolio
 ### How to install
 
 ```shell
-$ cd reactPortfolio
 $ npm init -y
 $ npm install
 ```

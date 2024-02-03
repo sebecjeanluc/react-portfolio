@@ -116,7 +116,7 @@
 	display: inline-block;
 	width: 24px;
 	height: 24px;
-	background-image: url('./src/assets/images/icon/arrow-down.svg');
+	background-image: url('/images/icon/arrow-down.svg');
 	background-size: cover;
 	margin-right: 15px;
 	top: 25px;

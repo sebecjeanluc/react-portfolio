@@ -8,7 +8,7 @@ function ProjectGallery(){
   // console.log(projectsData);
   return (
     <section className="section-picTop__wrapper">
-      <img src="./src/assets/images/work/signature.png" alt="signature" />
+      <img src="/react-portfolio/src/assets/images/work/signature.png" alt="signature" />
         <div className="section-picTop__inner">
           <h3>PROJECT GALLERY</h3>
         </div>

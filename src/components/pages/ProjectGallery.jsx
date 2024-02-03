@@ -43,7 +43,7 @@ function ProjectGallery(){
         <div className="subSection__wrapper">
           <div className="contact-button__wrapper arrow-right">
             <button className="contact-button">
-              <NavLink to='/'>BACK TO HOME</NavLink>
+              <NavLink to='/react-portfolio'>BACK TO HOME</NavLink>
             </button>
           </div>
         </div>

@@ -18,7 +18,7 @@ function App() {
       {/* <NavTabs /> */}
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/react-portfolio' element={<Home />} />
         <Route path='/projectGallery' element={<ProjectGallery />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>

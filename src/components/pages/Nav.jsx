@@ -6,7 +6,7 @@ function Nav(){
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <h1 className="navbar-brand topName">
-          <a href="/">TAK -uya- KAWAMURA</a></h1>
+          <a href="/react-portfolio">TAK -uya- KAWAMURA</a></h1>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

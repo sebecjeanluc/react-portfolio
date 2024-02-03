@@ -9,7 +9,7 @@ function Project(){
       </div>
       <div className="section-content__wrapper">
         <NavLink to='https://suiki.co.uk' target="__blank">
-          <img src="/react-portfolio/src/assets/images/work/suiki_hp_resized.png" alt="Suiki hp" />
+          <img src="./src/assets/images/work/suiki_hp_resized.png" alt="Suiki hp" />
         </NavLink>
           <h4>WEB SERVICE</h4>
           <p>This website is under construction. It shows the part of design and mock-up coding for a cosmetic site.</p>

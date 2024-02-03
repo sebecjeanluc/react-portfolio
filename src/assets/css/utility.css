@@ -142,7 +142,7 @@ p {
 	display: inline-block;
 	width: 24px;
 	height: 24px;
-	background-image: url('/react-portfolio/src/assets/images/icon/arrow-right-square-fill.svg');
+	background-image: url('./src/assets/images/icon/arrow-right-square-fill.svg');
 	background-size: cover;
 	margin-right: 15px;
 	top: 12px;

@@ -8,7 +8,7 @@ function ProjectGallery(){
   // console.log(projectsData);
   return (
     <section className="section-picTop__wrapper">
-      <img src="/react-portfolio/src/assets/images/work/signature.png" alt="signature" />
+      <img src="./src/assets/images/work/signature.png" alt="signature" />
         <div className="section-picTop__inner">
           <h3>PROJECT GALLERY</h3>
         </div>
@@ -43,7 +43,7 @@ function ProjectGallery(){
         <div className="subSection__wrapper">
           <div className="contact-button__wrapper arrow-right">
             <button className="contact-button">
-              <NavLink to='/react-portfolio'>BACK TO HOME</NavLink>
+              <NavLink to='.'>BACK TO HOME</NavLink>
             </button>
           </div>
         </div>

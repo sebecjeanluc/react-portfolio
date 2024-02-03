@@ -60,6 +60,7 @@ N/A
 ![demo_SP](./guide/demo02.png)
 
 [react-portfolio on Github](https://sebecjeanluc.github.io/react-portfolio/)
+If it does not load properly, Click here [React Portfolio on Netlify](https://main--marvelous-raindrop-684bbe.netlify.app/)
 
 ### Third-party services
 

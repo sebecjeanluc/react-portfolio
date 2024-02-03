@@ -5,7 +5,7 @@
     "year": "12-2019",
     "client": "pips",
     "description": "This is an official company website for Pips international pre-school. located in Tokyo, built in Wordpress.",
-    "imageLink": "/react-portfolio/src/assets/images/work/pips.png",
+    "imageLink": "./src/assets/images/work/pips.png",
     "status": false,
     "link": "https://pipschild.com"
   },
@@ -15,7 +15,7 @@
     "year": "03-2020",
     "client": "Mise en scene, Inc.",
     "description": "This is an official company website for Mise en scene, Inc. located in Tokyo, built in HTML, and CSS deloyed in AWS.",
-    "imageLink": "/react-portfolio/src/assets/images/work/miseenscene.png",
+    "imageLink": "./src/assets/images/work/miseenscene.png",
     "status": true,
     "link": "https://miseenscene.co.jp"
   },
@@ -25,7 +25,7 @@
     "year": "11-2021",
     "client": "Suiki",
     "description": "This is an official company website for Suiki Limited, Inc. located in UK, built in HTML, and CSS deloyed in AWS.",
-    "imageLink": "/react-portfolio/src/assets/images/work/suiki_hp.png",
+    "imageLink": "./src/assets/images/work/suiki_hp.png",
     "status": true,
     "link": "https://suiki.co.uk"
   },
@@ -35,7 +35,7 @@
     "year": "01-2024",
     "client": "bootcamp",
     "description": "This project is about developing a command-line application that dynamically generates a professional README.md file for open-source GitHub projects. Utilizing the Inquirer package, the application will simplify the process of creating a detailed README that includes information on the app's purpose, usage, installation, issue reporting, and contribution guidelines. The aim is to enhance the quality of open-source projects and encourage community contributions, while allowing project creators to focus more on development work.",
-    "imageLink": "/react-portfolio/src/assets/images/work/readme-demo.png",
+    "imageLink": "./src/assets/images/work/readme-demo.png",
     "status": true,
     "link": "https://sebecjeanluc.github.io/readme-generator/",
     "githubLink": "https://github.com/sebecjeanluc/readme-generator"
@@ -57,7 +57,7 @@
     "year": "11-2021",
     "client": "bootcamp",
     "description": "This project involves the creation of a Node.js command-line application designed to handle and process information about employees in a software engineering team. The essential task of this application is to take specific details about each team member, such as their name, role, ID, email, and other role-specific information, and use this data to generate an HTML webpage. This webpage will display summarized profiles for each team member. An integral part of the project is ensuring that the application passes a series of provided tests, indicating that each segment of the code functions as intended.",
-    "imageLink": "/react-portfolio/src/assets/images/work/team-profile.png",
+    "imageLink": "./src/assets/images/work/team-profile.png",
     "status": true,
     "link": "https://sebecjeanluc.github.io/team-profile-generator/",
     "githubLink": "https://github.com/sebecjeanluc/team-profile-generator"

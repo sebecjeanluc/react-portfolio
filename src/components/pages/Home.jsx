@@ -7,7 +7,7 @@ function Home(){
     <section id="home">
       <div className="home__wrapper">
         <div className="home_profile_pic--wrapper">
-          <img src="/images/pf_pic_BL.jpg" alt="Tak profile picture"/>
+          <img src="assets/images/pf_pic_BL.jpg" alt="Tak profile picture"/>
         </div>
         <div className="home_title--wrapper">
           <h3>TAK -uya- KAWAMURA's PORTFOLIO</h3>

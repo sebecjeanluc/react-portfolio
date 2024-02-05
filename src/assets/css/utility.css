@@ -4,6 +4,7 @@
 	--theme: #dedbd1;
 	--fontSerif: 'Roboto Serif', serif;
 	--brown: rgba(58, 51, 46, 1);
+	--tablet: 767px;
 }
 
 body {
@@ -86,8 +87,8 @@ p {
 	padding: 25px;
 }
 
-/* Bigger than 600px */
-@media only screen and (min-width: 600px) {
+/* Bigger than 767px */
+@media only screen and (min-width: 767px) {
 	.general__wrapper,
 	.section__wrapper,
 	.section__wrapper,
@@ -112,6 +113,11 @@ p {
 
 .socialmedia__inner {
 	margin: 10px 0;
+}
+@media only screen and (min-width: 767px) {
+	.section__wrapper.social-media {
+		max-width: 100%;
+	}
 }
 
 /* Button */

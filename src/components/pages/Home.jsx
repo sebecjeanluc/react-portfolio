@@ -16,22 +16,47 @@ function Home(){
           <div className="contact-button__wrapper">
             <a href="/pdf/TakuyKawamuraResume2023EN-technicalResume.pdf" download>
           <button className="contact-button">RESUME DOWNLOAD</button></a>
-          <div className="contact-button__wrapper">
-            EMAIL: tkawamura11@gmail.com
-          </div>
           </div>
         </div>
       </div>
-      <div className="subSection__wrapper">
-        <NavLink to='/contact'>
-          <div className="contact-button__wrapper">
-            <button className="contact-button">
-              CONTACT HIM
-            </button>
-          </div>
-        </NavLink>
+      <div className="layout__wrapper">
+        <div className="subSection__wrapper">
+          <NavLink to='/contact'>
+            <div className="contact-button__wrapper square">
+              <button className="contact-button">
+                CONTACT HIM
+              </button>
+            </div>
+          </NavLink>
+        </div>
+        <Project />
       </div>
-      <Project />
+      <section className="layout__wrapper three-column">
+        <div className="three-column-item">
+          <p>
+            tkawamura11@gmail.com
+          </p>
+        </div>
+        <div className="three-column-item">
+          <p>
+            (+44)078-6929-2628
+          </p>
+        </div>
+        <div className="three-column-item column-img">
+        </div>
+      </section>
+      {/* <section className="layout__wrapper three-column">
+        <div className="three-column-item">
+          <div>
+            EMAIL: tkawamura11@gmail.com
+            TEL: (+44)078-6929-2628
+          </div>
+        </div>
+        <div className="three-column-item">
+          <div></div>
+        </div>
+        <div className="three-column-item"></div>
+      </section> */}
     </section>
   )
 }

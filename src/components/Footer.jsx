@@ -5,7 +5,7 @@ const currentYear = new Date().getFullYear();
 function Footer(){
   return (
     <footer>
-      <section className='section__wrapper'>
+      <section className='section__wrapper social-media'>
         <div
           className="text-center bg-transparent"
         >

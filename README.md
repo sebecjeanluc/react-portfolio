@@ -109,4 +109,4 @@ Tak Kawamura - tkawamura11@gmail.com
 [WEBAPI]: https://img.shields.io/badge/WEBAPI-orange
 [NODEJS]: https://img.shields.io/badge/NODEJS-green
 [REACT]: https://img.shields.io/badge/REACT-lightblue
-[Netlify]: https://img.shields.io/badge/REACT-green
+[Netlify]: https://img.shields.io/badge/Netlify-green

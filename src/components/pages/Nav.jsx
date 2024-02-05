@@ -16,6 +16,9 @@ function Nav(){
               <NavLink to='/' exact='true' className={({ isActive}) => isActive ? 'nav-link active' : 'nav-link'}>HOME</NavLink>
             </li>
             <li className="nav-item nav-content">
+              <NavLink to='/Project' exact='true' className={({ isActive}) => isActive ? 'nav-link active' : 'nav-link'}>PROJECT</NavLink>
+            </li>
+            <li className="nav-item nav-content">
               <NavLink to='/ProjectGallery' exact='true' className={({ isActive}) => isActive ? 'nav-link active' : 'nav-link'}>PROJECT-GALLERY</NavLink>
             </li>
             <li className="nav-item nav-content">

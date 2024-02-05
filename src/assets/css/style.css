@@ -148,6 +148,10 @@
 	.three-column-item {
 		border-right: 1px solid var(--brown);
 	}
+
+	.contact-button__wrapper.square {
+		border-top: none;
+	}
 }
 
 .contact-button__wrapper.square {
@@ -155,9 +159,10 @@
 	padding: 150px 0;
 }
 
-.layout__wrapper.three-column {
-	padding: 25px;
-}
+/* .layout__wrapper.three-column {
+	margin: 25px;
+} */
+
 .layout__wrapper.three-column p {
 	text-align: center;
 }

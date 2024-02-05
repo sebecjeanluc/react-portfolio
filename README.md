@@ -35,6 +35,7 @@ The project focuses on a technically sophisticated implementation of a portfolio
 - ![NODEJS]
 - ![WEBAPI]
 - ![REACT]
+- ![Netlify]
 
 ### How to install
 
@@ -59,8 +60,7 @@ N/A
 ![demo_SP](./guide/demo01.png)
 ![demo_SP](./guide/demo02.png)
 
-[react-portfolio on Github](https://sebecjeanluc.github.io/react-portfolio/)
-If it does not load properly, Click here [React Portfolio on Netlify](https://main--marvelous-raindrop-684bbe.netlify.app/)
+[React Portfolio on Netlify[(https://sebecjeanluc.github.io/react-portfolio/](https://main--marvelous-raindrop-684bbe.netlify.app/))
 
 ### Third-party services
 
@@ -69,6 +69,7 @@ If it does not load properly, Click here [React Portfolio on Netlify](https://ma
 - React and React-DOM
 - Styled-Components
 - Vite
+- Netlify
 
 ### Credits
 
@@ -108,3 +109,4 @@ Tak Kawamura - tkawamura11@gmail.com
 [WEBAPI]: https://img.shields.io/badge/WEBAPI-orange
 [NODEJS]: https://img.shields.io/badge/NODEJS-green
 [REACT]: https://img.shields.io/badge/REACT-lightblue
+[Netlify]: https://img.shields.io/badge/REACT-green

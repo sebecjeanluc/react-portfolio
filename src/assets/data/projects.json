@@ -1,77 +1,36 @@
 [
   {
-    "id": 10,
-    "name": "COMPANY WEBSITE - Pips",
-    "year": "12-2019",
-    "client": "pips",
-    "description": "This is an official company website for Pips international pre-school. located in Tokyo, built in Wordpress.",
-    "imageLink": "/images/work/pips.png",
-    "status": false,
-    "link": "https://pipschild.com"
-  },
-  {
-    "id": 11,
-    "name": "COMPANY WEBSITE - Miseenscen",
-    "year": "03-2020",
-    "client": "Mise en scene, Inc.",
-    "description": "This is an official company website for Mise en scene, Inc. located in Tokyo, built in HTML, and CSS deloyed in AWS.",
-    "imageLink": "/images/work/miseenscene.png",
-    "status": true,
-    "link": "https://miseenscene.co.jp"
-  },
-  {
-    "id": 12,
-    "name": "COMPANY WEBSITE - Suiki",
-    "year": "11-2021",
-    "client": "Suiki",
-    "description": "This is an official company website for Suiki Limited, Inc. located in UK, built in HTML, and CSS deloyed in AWS.",
-    "imageLink": "/images/work/suiki_hp.png",
-    "status": true,
-    "link": "https://suiki.co.uk"
-  },
-  {
-    "id": 21,
-    "name": "Readme Generator",
-    "year": "01-2024",
+    "id": 42,
+    "name": "Pollution Checker",
+    "year": "02-2024",
     "client": "bootcamp",
-    "description": "This project is about developing a command-line application that dynamically generates a professional README.md file for open-source GitHub projects. Utilizing the Inquirer package, the application will simplify the process of creating a detailed README that includes information on the app's purpose, usage, installation, issue reporting, and contribution guidelines. The aim is to enhance the quality of open-source projects and encourage community contributions, while allowing project creators to focus more on development work.",
-    "imageLink": "/images/work/readme-demo.png",
+    "description": "This project is to create a browser-based timed coding quiz with multiple-choice questions, using dynamic HTML, CSS, and JavaScript for a responsive interface, applying skills I've learned in this module.",
+    "imageLink": "/images/work/pollu.png",
     "status": true,
-    "link": "https://sebecjeanluc.github.io/readme-generator/",
-    "githubLink": "https://github.com/sebecjeanluc/readme-generator"
+    "link": "https://pollucheck.netlify.app/",
+    "githubLink": "https://github.com/sebecjeanluc/pollution-checker"
   },
   {
-    "id": 22,
-    "name": "Console Finances",
-    "year": "10-2021",
+    "id": 41,
+    "name": "Moodflix",
+    "year": "12-2023",
     "client": "bootcamp",
-    "description": "This is a Javascript practice for a bootcamp. In this practice, you will see the fundemental technique of Javascript, using variable, array, iteration, and conditional loops. The guidance is provided for the roadmap below.",
-    "imageLink": "https://raw.githubusercontent.com/sebecjeanluc/Console-Finances/main/consoleFinances.png",
+    "description": "This project is to create a browser-based timed coding quiz with multiple-choice questions, using dynamic HTML, CSS, and JavaScript for a responsive interface, applying skills I've learned in this module.",
+    "imageLink": "/images/work/moodflix.png",
     "status": true,
-    "link": "https://sebecjeanluc.github.io/Console-Finances/",
-    "githubLink": "https://github.com/sebecjeanluc/Console-Finances"
+    "link": "https://sebecjeanluc.github.io/mood-flix/",
+    "githubLink": "https://github.com/sebecjeanluc/mood-flix"
   },
   {
-    "id": 31,
-    "name": "Team Profile Builder",
+    "id": 34,
+    "name": "Code Quiz",
     "year": "11-2021",
     "client": "bootcamp",
-    "description": "This project involves the creation of a Node.js command-line application designed to handle and process information about employees in a software engineering team. The essential task of this application is to take specific details about each team member, such as their name, role, ID, email, and other role-specific information, and use this data to generate an HTML webpage. This webpage will display summarized profiles for each team member. An integral part of the project is ensuring that the application passes a series of provided tests, indicating that each segment of the code functions as intended.",
-    "imageLink": "/images/work/team-profile.png",
+    "description": "This project is to create a browser-based timed coding quiz with multiple-choice questions, using dynamic HTML, CSS, and JavaScript for a responsive interface, applying skills I've learned in this module.",
+    "imageLink": "https://raw.githubusercontent.com/sebecjeanluc/code-quiz/main/assets/guide/08-web-apis-challenge-demo.gif",
     "status": true,
-    "link": "https://sebecjeanluc.github.io/team-profile-generator/",
-    "githubLink": "https://github.com/sebecjeanluc/team-profile-generator"
-  },
-  {
-    "id": 32,
-    "name": "Weather Dashboard",
-    "year": "12-2021",
-    "client": "bootcamp",
-    "description": "The project involves creating a browser-based weather dashboard that dynamically updates with data retrieved from the 5 Day Weather Forecast API. Developers must register for an API key, which could take up to 2 hours to activate, and learn how to use the API to integrate weather data into their dashboard.",
-    "imageLink": "https://raw.githubusercontent.com/sebecjeanluc/weather-dashboard/main/assets/images/demo.png",
-    "status": true,
-    "link": "https://sebecjeanluc.github.io/weather-dashboard/",
-    "githubLink": "https://github.com/sebecjeanluc/weather-dashboard"
+    "link": "https://sebecjeanluc.github.io/code-quiz/",
+    "githubLink": "https://github.com/sebecjeanluc/code-quiz"
   },
   {
     "id": 33,
@@ -85,14 +44,77 @@
     "githubLink": "https://github.com/sebecjeanluc/work-day-scheduler"
   },
   {
-    "id": 34,
-    "name": "Code Quiz",
+    "id": 32,
+    "name": "Weather Dashboard",
+    "year": "12-2021",
+    "client": "bootcamp",
+    "description": "The project involves creating a browser-based weather dashboard that dynamically updates with data retrieved from the 5 Day Weather Forecast API. Developers must register for an API key, which could take up to 2 hours to activate, and learn how to use the API to integrate weather data into their dashboard.",
+    "imageLink": "https://raw.githubusercontent.com/sebecjeanluc/weather-dashboard/main/assets/images/demo.png",
+    "status": true,
+    "link": "https://sebecjeanluc.github.io/weather-dashboard/",
+    "githubLink": "https://github.com/sebecjeanluc/weather-dashboard"
+  },
+  {
+    "id": 31,
+    "name": "Team Profile Builder",
     "year": "11-2021",
     "client": "bootcamp",
-    "description": "This project is to create a browser-based timed coding quiz with multiple-choice questions, using dynamic HTML, CSS, and JavaScript for a responsive interface, applying skills I've learned in this module.",
-    "imageLink": "https://raw.githubusercontent.com/sebecjeanluc/code-quiz/main/assets/guide/08-web-apis-challenge-demo.gif",
+    "description": "This project involves the creation of a Node.js command-line application designed to handle and process information about employees in a software engineering team. The essential task of this application is to take specific details about each team member, such as their name, role, ID, email, and other role-specific information, and use this data to generate an HTML webpage. This webpage will display summarized profiles for each team member. An integral part of the project is ensuring that the application passes a series of provided tests, indicating that each segment of the code functions as intended.",
+    "imageLink": "/images/work/team-profile.png",
     "status": true,
-    "link": "https://sebecjeanluc.github.io/code-quiz/",
-    "githubLink": "https://github.com/sebecjeanluc/code-quiz"
+    "link": "https://sebecjeanluc.github.io/team-profile-generator/",
+    "githubLink": "https://github.com/sebecjeanluc/team-profile-generator"
+  },
+  {
+    "id": 22,
+    "name": "Console Finances",
+    "year": "10-2021",
+    "client": "bootcamp",
+    "description": "This is a Javascript practice for a bootcamp. In this practice, you will see the fundemental technique of Javascript, using variable, array, iteration, and conditional loops. The guidance is provided for the roadmap below.",
+    "imageLink": "https://raw.githubusercontent.com/sebecjeanluc/Console-Finances/main/consoleFinances.png",
+    "status": true,
+    "link": "https://sebecjeanluc.github.io/Console-Finances/",
+    "githubLink": "https://github.com/sebecjeanluc/Console-Finances"
+  },
+  {
+    "id": 21,
+    "name": "Readme Generator",
+    "year": "01-2024",
+    "client": "bootcamp",
+    "description": "This project is about developing a command-line application that dynamically generates a professional README.md file for open-source GitHub projects. Utilizing the Inquirer package, the application will simplify the process of creating a detailed README that includes information on the app's purpose, usage, installation, issue reporting, and contribution guidelines. The aim is to enhance the quality of open-source projects and encourage community contributions, while allowing project creators to focus more on development work.",
+    "imageLink": "/images/work/readme-demo.png",
+    "status": true,
+    "link": "https://sebecjeanluc.github.io/readme-generator/",
+    "githubLink": "https://github.com/sebecjeanluc/readme-generator"
+  },
+  {
+    "id": 12,
+    "name": "COMPANY WEBSITE - Suiki",
+    "year": "11-2021",
+    "client": "Suiki",
+    "description": "This is an official company website for Suiki Limited, Inc. located in UK, built in HTML, and CSS deloyed in AWS.",
+    "imageLink": "/images/work/suiki_hp.png",
+    "status": true,
+    "link": "https://suiki.co.uk"
+  },
+  {
+    "id": 11,
+    "name": "COMPANY WEBSITE - Miseenscen",
+    "year": "03-2020",
+    "client": "Mise en scene, Inc.",
+    "description": "This is an official company website for Mise en scene, Inc. located in Tokyo, built in HTML, and CSS deloyed in AWS.",
+    "imageLink": "/images/work/miseenscene.png",
+    "status": true,
+    "link": "https://miseenscene.co.jp"
+  },
+  {
+    "id": 10,
+    "name": "COMPANY WEBSITE - Pips",
+    "year": "12-2019",
+    "client": "pips",
+    "description": "This is an official company website for Pips international pre-school. located in Tokyo, built in Wordpress.",
+    "imageLink": "/images/work/pips.png",
+    "status": false,
+    "link": "https://pipschild.com"
   }
 ]

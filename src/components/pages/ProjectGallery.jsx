@@ -14,7 +14,7 @@ function ProjectGallery(){
         </div>
         <div className="projectGallery__wrapper">
           <div className="projectGallery__inner">
-            {projectsData.map(project=>(
+            {projectsData.reverse().map(project=>(
               <div key={project.id} className="projectGallery-button__wrapper">
                 <div className="projectGallery-item">
                 {`# 0${project.id}`}

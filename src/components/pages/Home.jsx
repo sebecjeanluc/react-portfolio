@@ -5,22 +5,22 @@ import Project from './Project'
 function Home(){
   return (
     <section id="home">
-      <div className="home__wrapper">
-        <div className="home_profile_pic--wrapper">
+      <div className="layout--wrapper">
+        <div className="subSection--wrapper">
           <img src="/images/pf_pic_BL.jpg" alt="Tak profile picture"/>
         </div>
-        <div className="home_title--wrapper">
+        <div className="subSection--wrapper">
           <h3>TAK -uya- KAWAMURA's PORTFOLIO</h3>
           <h4>IT's ALL ABOUT STORY</h4>
           <p>Takuya Kawamura, a front-end developer with a keen eye for film and interactive media, has made a significant transition from admiring movie storytelling to mastering the digital realm. Recognizing the untapped potential of smartphones, Takuya co-founded a web service dedicated to innovative collaborative storytelling. His expertise lies in crafting user interfaces that seamlessly integrate aesthetics with functionality, aiming to revolutionize digital experiences through engaging narratives and interactive storytelling techniques.</p>
           <div className="contact-button__wrapper">
-            <a href="/pdf/TakuyKawamuraResume2023EN-technicalResume.pdf" download>
+            <a href="/pdf/TakuyKawamuraResume-technicalResume.pdf" download>
           <button className="contact-button">RESUME DOWNLOAD</button></a>
           </div>
         </div>
       </div>
-      <div className="layout__wrapper">
-        <div className="subSection__wrapper">
+      <div className="layout--wrapper">
+        <div className="subSection--wrapper">
           <NavLink to='/contact'>
             <div className="contact-button__wrapper square">
               <button className="contact-button">
@@ -31,7 +31,7 @@ function Home(){
         </div>
         <Project />
       </div>
-      <section className="layout__wrapper three-column">
+      <section className="layout--wrapper three-column">
         <div className="three-column-item">
           <p>
             tkawamura11@gmail.com
@@ -45,7 +45,7 @@ function Home(){
         <div className="three-column-item column-img">
         </div>
       </section>
-      {/* <section className="layout__wrapper three-column">
+      {/* <section className="layout--wrapper three-column">
         <div className="three-column-item">
           <div>
             EMAIL: tkawamura11@gmail.com

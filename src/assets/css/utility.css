@@ -24,8 +24,7 @@ p {
 	position: relative;
 	width: 100%;
 	padding: 25px;
-	border-top: 2px solid var(--brown);
-	margin: 25px 0;
+	margin: 25px auto;
 }
 
 .section__wrapper h3 {
@@ -61,12 +60,14 @@ p {
 .section-picTop__wrapper {
 	position: relative;
 	width: 100%;
+	text-align: center;
 }
 
 .section-picTop__wrapper img {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
+	max-width: 720px;
 }
 
 .section-picTop__inner {
@@ -88,16 +89,6 @@ p {
 }
 
 /* Bigger than 767px */
-@media only screen and (min-width: 767px) {
-	.general__wrapper,
-	.section__wrapper,
-	.section__wrapper,
-	.subSection__wrapper,
-	.section-picTop__wrapper {
-		max-width: 720px;
-		margin: 0 auto;
-	}
-}
 
 /* Footer */
 .footer {
@@ -117,6 +108,10 @@ p {
 @media only screen and (min-width: 767px) {
 	.section__wrapper.social-media {
 		max-width: 100%;
+	}
+
+	.section__wrapper {
+		max-width: 720px;
 	}
 }
 

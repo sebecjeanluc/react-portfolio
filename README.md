@@ -60,7 +60,7 @@ N/A
 ![demo_SP](./guide/demo01.png)
 ![demo_SP](./guide/demo02.png)
 
-[React Portfolio on Netlify](https://main--marvelous-raindrop-684bbe.netlify.app/)
+[React Portfolio on Netlify](https://tak-kawa.netlify.app//)
 
 ### Third-party services
 

@@ -14,8 +14,8 @@ function Home(){
           <h4>IT's ALL ABOUT STORY</h4>
           <p>Takuya Kawamura, a front-end developer with a keen eye for film and interactive media, has made a significant transition from admiring movie storytelling to mastering the digital realm. Recognizing the untapped potential of smartphones, Takuya co-founded a web service dedicated to innovative collaborative storytelling. His expertise lies in crafting user interfaces that seamlessly integrate aesthetics with functionality, aiming to revolutionize digital experiences through engaging narratives and interactive storytelling techniques.</p>
           <div className="contact-button__wrapper">
-            <a href="/pdf/TakuyKawamuraResume-technicalResume.pdf" download>
-          <button className="contact-button">RESUME DOWNLOAD</button></a>
+            <a href="https://drive.google.com/file/d/1FVink__AJ_bm9e18HHqOA5b5m1mt3gxm/view?usp=sharing" target="__blank" download>
+          <button className="contact-button">CHECK TAK's RESUME</button></a>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ function Contact(){
     alert(`Thank you ${formData.name} but unfortunately the form is not working. Please contact via my email: tkawamura11@gmail.com or social media`)
   }
   return (
-    <section className='general__wrapper'>
+    <section className='section__wrapper'>
       <h3>CONTACT</h3>
       <div className="subSection__wrapper">
         <form onSubmit={handleSubmit} className="container subSection__container mt-5">

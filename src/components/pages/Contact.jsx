@@ -1,5 +1,7 @@
-import {Ract, useState } from 'react';
-
+import {React, useState } from 'react';
+import { db } from '../../firebase-config';
+import { collection, addDoc } from 'firebase/firestore';
+import { useNavigate } from 'react-router-dom';
 
 function Contact(){
   const [formData, setFormData] = useState({
@@ -7,14 +9,28 @@ function Contact(){
     email: '',
     message: '',
   });
+  const navigate = useNavigate();
   function handleChange(event){
     setFormData({ ...formData, [event.target.name]: event.target.value });
   }
-  function handleSubmit(event){
+  const handleSubmit = async(event) =>{
     event.preventDefault();
-    console.log(formData);
-    alert(`Thank you ${formData.name} but unfortunately the form is not working. Please contact via my email: tkawamura11@gmail.com or social media`)
-  }
+
+    try {
+       const docRef = await addDoc(collection(db, "contacts"), {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message
+      });
+
+      navigate(`/thank-you/${docRef.id}`, { state: {name: formData.name, email: formData.email, message: formData.message}})
+
+    } catch(error){
+      console.log("Error adding document: ", error);
+      console.log("Error sending message")
+    }
+  };
+
   return (
     <section className='section__wrapper'>
       <h3>CONTACT</h3>

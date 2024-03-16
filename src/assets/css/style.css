@@ -241,3 +241,24 @@
 		max-width: 720px;
 	}
 }
+
+.simple--wrapper {
+	width: 100%;
+	margin: 50px 0;
+}
+
+.simple--wrapper h2 {
+	text-align: center;
+	font-size: 34px;
+}
+
+.form__result h4 {
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.form__result dd {
+	margin: 15px 0;
+	padding-bottom: 5px;
+	border-bottom: 1px solid var(--black);
+}

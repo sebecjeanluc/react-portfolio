@@ -14,6 +14,10 @@ import Project from "./components/pages/Project";
 import Contact from "./components/pages/Contact";
 import ThankYouPage from "./components/pages/ThankYouPage";
 
+// Slick
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 function App() {
   return (
     <Router>

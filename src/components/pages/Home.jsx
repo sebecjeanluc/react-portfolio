@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
-import Project from './Project'
+import Imageloader from '../Imageloader'
 
 function Home(){
   return (
@@ -29,7 +29,9 @@ function Home(){
             </div>
           </NavLink>
         </div>
-        <Project />
+        <NavLink to='/project'>
+          <Imageloader />
+        </NavLink>
       </div>
       <section className="layout--wrapper three-column">
         <div className="three-column-item">

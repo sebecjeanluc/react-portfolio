@@ -1,7 +1,8 @@
-import {React, useState } from 'react';
+import React, { useState } from 'react';
 import { db } from '../../firebase-config';
 import { collection, addDoc } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet'
 
 function Contact(){
   const [formData, setFormData] = useState({
@@ -71,13 +72,21 @@ function Contact(){
           </div>
           <div className="subSection__wrapper">
             <div className="contact-button__wrapper">
-              <button className="contact-button" type="submit">
+              <button
+                className="contact-button g-recaptcha"
+                data-sitekey={import.meta.env.VITE_RECAPCHA_SITE_KEY}
+                data-callback='onSubmit'
+                data-action='submit'
+                type="submit">
                 SUBMIT
               </button>
             </div>
           </div>
         </form>
       </div>
+      <Helmet>
+        <script src ="https://www.google.com/recaptcha/api.js"></script>
+      </Helmet>
     </section>
   )
 }

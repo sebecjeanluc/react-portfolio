@@ -16,7 +16,6 @@
 }
 
 /* Navigation SP*/
-
 .nav__wrapper {
 	justify-content: right;
 }
@@ -31,7 +30,6 @@
 .nav-content:last-child {
 	border-bottom: none;
 }
-
 .nav-content a {
 	font-size: 34px;
 	font-weight: 300;
@@ -54,6 +52,11 @@
 }
 
 /* HOME */
+#home {
+	margin-bottom: 100px;
+	position: relative;
+}
+
 .home__wrapper {
 	position: relative;
 	width: 100%;

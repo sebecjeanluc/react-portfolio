@@ -10,10 +10,12 @@ function Contact(){
     email: '',
     message: '',
   });
+
   const navigate = useNavigate();
   function handleChange(event){
     setFormData({ ...formData, [event.target.name]: event.target.value });
   }
+
   const handleSubmit = async(event) =>{
     event.preventDefault();
 
@@ -24,11 +26,28 @@ function Contact(){
         message: formData.message
       });
 
+      try {
+        const emailResponse = await fetch('https://us-central1-tak-portfolio.cloudfunctions.net/sendEmail', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            to: formData.email,
+            subject: `Thank you for your contact, ${formData.name}`,
+            text: formData.message,
+          }),
+        });
+
+        if(!emailResponse.ok) throw new Error('Failed to send email');
+      } catch(emailError){
+        console.error('Email sending error: ', emailError);
+      }
+
       navigate(`/thank-you/${docRef.id}`, { state: {name: formData.name, email: formData.email, message: formData.message}})
 
     } catch(error){
       console.log("Error adding document: ", error);
-      console.log("Error sending message")
     }
   };
 

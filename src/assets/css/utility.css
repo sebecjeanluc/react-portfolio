@@ -167,7 +167,7 @@ p {
 	width: 100%;
 	height: 15px;
 	background-color: black;
-	animation: loadingEffect 10s linear infinite;
+	animation: loadingEffect 15s linear infinite;
 	transform: translateY(-50%);
 }
 

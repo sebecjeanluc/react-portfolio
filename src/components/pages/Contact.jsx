@@ -47,24 +47,26 @@ function Contact(){
       if(!emailResponse.ok) throw new Error('Failed to send email');
 
       setTimeout(() => {
+        setIsLoading(false)
         setIsComplete(true)
-        console.log('Complete added')
       }, 5000)
 
     } catch(emailError){
       console.error('Email sending error: ', emailError);
     }
 
+    // const docRef = 1234
+
+    // setTimeout(() => {
       navigate(`/thank-you/${docRef.id}`, { state: {name: formData.name, email: formData.email, message: formData.message}})
+    // }, 8000)
 
 
   } catch(error){
     console.log("Error adding document: ", error);
     setIsLoading(false);
-    console.log('Loading finish (error')
     } finally {
       setIsLoading(false);
-      console.log('Loading finish (final)')
     }
   };
 

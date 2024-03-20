@@ -10,13 +10,19 @@ function Contact(){
     message: '',
   });
 
+  const [isLoading, setIsLoading] = useState(false);
+  const [isComplete, setIsComplete] = useState(false);
+
   const navigate = useNavigate();
+
   function handleChange(event){
     setFormData({ ...formData, [event.target.name]: event.target.value });
   }
 
   const onSubmit = async(event) =>{
     event.preventDefault();
+    setIsLoading(true); //loading start
+    setIsComplete(false); // reset complete
 
     try {
        const docRef = await addDoc(collection(db, "contacts"), {
@@ -40,14 +46,25 @@ function Contact(){
 
       if(!emailResponse.ok) throw new Error('Failed to send email');
 
+      setTimeout(() => {
+        setIsComplete(true)
+        console.log('Complete added')
+      }, 5000)
+
     } catch(emailError){
       console.error('Email sending error: ', emailError);
     }
 
-    navigate(`/thank-you/${docRef.id}`, { state: {name: formData.name, email: formData.email, message: formData.message}})
+      navigate(`/thank-you/${docRef.id}`, { state: {name: formData.name, email: formData.email, message: formData.message}})
 
-    } catch(error){
-      console.log("Error adding document: ", error);
+
+  } catch(error){
+    console.log("Error adding document: ", error);
+    setIsLoading(false);
+    console.log('Loading finish (error')
+    } finally {
+      setIsLoading(false);
+      console.log('Loading finish (final)')
     }
   };
 
@@ -92,7 +109,7 @@ function Contact(){
           <div className="subSection__wrapper">
             <div className="contact-button__wrapper">
               <button
-                className="contact-button g-recaptcha"
+                className={`contact-button ${isLoading ? 'loading' : ''} ${isComplete ? 'complete' : ''}`}
                 // data-sitekey={import.meta.env.VITE_RECAPCHA_SITE_KEY}
                 // data-callback='onSubmit'
                 // data-action='submit'

@@ -19,8 +19,43 @@ function Contact(){
     setFormData({ ...formData, [event.target.name]: event.target.value });
   }
 
+  const [errors, setErrors] = useState({});
+
+  const validationForm = () =>{
+    let formIsValid = true;
+    let newErrors = {};
+
+    if (!formData.name.trim()) {
+      newErrors.name = 'Name is required.';
+      formIsValid = false;
+    }
+
+    if (!formData.email.trim()) {
+      newErrors.email = 'Email is required.';
+      formIsValid = false;
+    }
+
+    if (!formData.message.trim()) {
+      newErrors.message = 'Message is required.';
+      formIsValid = false;
+    }
+
+      setErrors(newErrors);
+
+      if (Object.keys(newErrors).length > 0){
+        return formIsValid;
+      }
+  }
+
   const onSubmit = async(event) =>{
     event.preventDefault();
+
+    setErrors({}); // reset errors
+
+    if(!validationForm()){
+      return;
+    }
+
     setIsLoading(true); //loading start
     setIsComplete(false); // reset complete
 
@@ -85,6 +120,7 @@ function Contact(){
               value={formData.name}
               onChange={handleChange}
             />
+            {errors.name && <div className="validation--text">{errors.name}</div>}
           </div>
           <div className="mb-3">
             <label htmlFor="email" className="form-label">Email address</label>
@@ -96,6 +132,7 @@ function Contact(){
               value={formData.email}
               onChange={handleChange}
             />
+            {errors.email && <div className="validation--text">{errors.email}</div>}
           </div>
           <div className="mb-3">
             <label htmlFor="message" className="form-label">Message</label>
@@ -107,6 +144,7 @@ function Contact(){
               value={formData.message}
               onChange={handleChange}
             ></textarea>
+            {errors.message && <div className="validation--text">{errors.message}</div>}
           </div>
           <div className="subSection__wrapper">
             <div className="contact-button__wrapper">

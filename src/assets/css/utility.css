@@ -211,3 +211,8 @@ p {
 	top: 12px;
 	right: 0;
 }
+
+.validation--text {
+	color: rgb(172, 0, 0);
+	margin: 5px 0;
+}

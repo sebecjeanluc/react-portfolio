@@ -41,8 +41,12 @@ function Contact(){
       }
     }
 
+    console.log(formData.message.length);
     if (!formData.message.trim()) {
       newErrors.message = 'Message is required.';
+      formIsValid = false;
+    } else if (formData.message.length > 300){
+      newErrors.message = 'Message must not exceed 300 characters.'
       formIsValid = false;
     }
 

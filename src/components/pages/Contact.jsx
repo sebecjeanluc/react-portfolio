@@ -33,12 +33,19 @@ function Contact(){
     if (!formData.email.trim()) {
       newErrors.email = 'Email is required.';
       formIsValid = false;
+    } else {
+      const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+      if (!regex.test(formData.email)){
+        newErrors.email = "Please enter a valid email address."
+        formIsValid = false;
+      }
     }
 
     if (!formData.message.trim()) {
       newErrors.message = 'Message is required.';
       formIsValid = false;
     }
+
 
       setErrors(newErrors);
 

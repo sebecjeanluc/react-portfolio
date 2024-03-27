@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { db } from '../../firebase-config';
 import { collection, addDoc } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
+import DOMPurify from 'dompurify';
 
 function Contact(){
   const [formData, setFormData] = useState({
@@ -41,7 +42,6 @@ function Contact(){
       }
     }
 
-    console.log(formData.message.length);
     if (!formData.message.trim()) {
       newErrors.message = 'Message is required.';
       formIsValid = false;
@@ -50,12 +50,13 @@ function Contact(){
       formIsValid = false;
     }
 
-
       setErrors(newErrors);
 
       if (Object.keys(newErrors).length > 0){
-        return formIsValid;
+        setErrors(newErrors)
+        return false;
       }
+      return true;
   }
 
   const onSubmit = async(event) =>{
@@ -63,9 +64,13 @@ function Contact(){
 
     setErrors({}); // reset errors
 
+    const sanitizedMessage = DOMPurify.sanitize(formData.message);
+
     if(!validationForm()){
       return;
     }
+
+    // Sanitize the message
 
     setIsLoading(true); //loading start
     setIsComplete(false); // reset complete
@@ -74,7 +79,7 @@ function Contact(){
        const docRef = await addDoc(collection(db, "contacts"), {
         name: formData.name,
         email: formData.email,
-        message: formData.message
+        message: sanitizedMessage
       });
 
       try {
@@ -86,7 +91,7 @@ function Contact(){
           body: JSON.stringify({
             to: formData.email,
             subject: `Thank you for your contact, ${formData.name}`,
-            text: formData.message,
+            text: sanitizedMessage,
           }),
         });
 
@@ -104,7 +109,7 @@ function Contact(){
     // const docRef = 1234
 
     // setTimeout(() => {
-      navigate(`/thank-you/${docRef.id}`, { state: {name: formData.name, email: formData.email, message: formData.message}})
+      navigate(`/thank-you/${docRef.id}`, { state: {name: formData.name, email: formData.email, message: sanitizedMessage}})
     // }, 8000)
 
 

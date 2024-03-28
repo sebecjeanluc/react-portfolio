@@ -91,7 +91,7 @@ function Contact(){
           body: JSON.stringify({
             to: formData.email,
             subject: `Thank you for your contact`,
-            text: `Thank you for your contact, ${formData.name}, \n this is your message: ${sanitizedMessage}. \n\n I will shortly get back to you within 2-3 days. \n Thank you, \n Tak`,
+            text: `Thank you for your contact, ${formData.name}, \n This is your message:\n\n ${sanitizedMessage}. \n\n I will shortly get back to you within 2-3 days. \n\n Thank you, \n\n Tak`,
           }),
         });
 
